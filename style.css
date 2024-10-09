@@ -1,0 +1,61 @@
+.style{
+    font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:bolder;
+  font-style:oblique;
+  font-size: 100px;
+  color: rgb(206, 222, 159);
+  text-align: center;
+  text-shadow: #7f98a0;
+  
+}
+.hh2{
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:bolder;
+  font-style:oblique;
+  font-size: 26px;
+  color: #F5F5DC;
+}
+.abc{
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:bolder;
+  font-style:oblique;
+  font-size: 26px;
+  color: rgb(252, 249, 246);
+  text-align: center;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #7f98a0, #a86a73, #8c5d57);
+    background-size: 300% 300%;
+    animation: gradient-animation 18s ease infinite;
+    
+    
+  }
+
+  
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .button {
+    padding: 10px 20px;
+    background-color: #c4d71b;
+    color: rgb(12, 10, 10);
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+  }
+
+  .button:hover {
+    background-color: #76889f;
+  }
+  
